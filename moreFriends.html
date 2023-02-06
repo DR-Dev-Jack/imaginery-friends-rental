@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Choose Your Imaginary Friend</title>
+  <link rel="stylesheet" type="text/css" href="opmaak/styleFriends.css">
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <a id="goBackButton" href="index.html">go back</a>
+            <h1>Choose Your Imaginary Friend</h1>
+        </div>
+    </header>
+  <main>
+    <form>
+      <h2>Tell us a bit about yourself</h2>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age"><br>
+      <label for="hobbies">Hobbies:</label><br>
+      <input type="text" id="hobbies" name="hobbies"><br>
+      <input type="submit" value="Find My Friend">
+    </form>
+    <section id="results">
+      <!-- this section will be populated with the results of the form submission -->
+    </section>
+  </main>
+  <script src="scripts/friendFinder.js"></script>
+</body>
+</html>

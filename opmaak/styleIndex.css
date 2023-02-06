@@ -1,0 +1,100 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e6e6e6;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* maybe tomorrow
+#moreFriends {
+    padding-left: 20%;
+}
+*/
+
+main {
+    padding: 20px;
+}
+
+/* Specific styles */
+section#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section#buyReasons {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section#friends {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section#friends ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+section#pricing {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+section#pricing table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section#pricing th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+section#pricing th {
+    background-color: #f2f2f2;
+}
+
+section#faq {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
